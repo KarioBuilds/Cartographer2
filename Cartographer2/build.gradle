@@ -26,6 +26,7 @@ dependencies {
     implementation project(':cartographer2_v1_19_r1')
     implementation project(':cartographer2_v1_19_r2')
     implementation project(':cartographer2_v1_19_r3')
+    implementation project(':cartographer2_v1_20_r1')
 }
 
 description = 'cartographer2'

@@ -4,7 +4,7 @@ plugins {
 }
 
 ext {
-  pluginVersion = '2.15.7'
+  pluginVersion = '2.15.8'
   shadePath = 'io.github.bananapuncher714.cartographer.lib'
   
   versions = [
