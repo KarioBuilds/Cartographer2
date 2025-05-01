@@ -13,46 +13,53 @@
 		<master.version>2.15.14</master.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>codemc-nms-repository</id>
+			<url>https://repo.codemc.io/repository/nms/</url>
+		</repository>
+	</repositories>
+
 	<modules>
-		<module>cartographer2_main</module>
-		<module>cartographer2_v1_8_r3</module>
-		<module>cartographer2_v1_9_r1</module>
-		<module>cartographer2_v1_9_r2</module>
-		<module>cartographer2_v1_10_r1</module>
-		<module>cartographer2_v1_11_r1</module>
-		<module>cartographer2_v1_12_r1</module>
-		<module>cartographer2_v1_13_r2</module>
-		<module>cartographer2_v1_14_r1</module>
-		<module>cartographer2_v1_15_r1</module>
-		<module>cartographer2_v1_16_r1</module>
-		<module>cartographer2_v1_16_r2</module>
-		<module>cartographer2_v1_16_r3</module>
-		<module>cartographer2_v1_17_r1</module>
-		<module>cartographer2_v1_18_r1</module>
-		<module>cartographer2_v1_18_r2</module>
-		<module>cartographer2_v1_19_r1</module>
-		<module>cartographer2_v1_19_r2</module>
-		<module>cartographer2_v1_19_r3</module>
-		<module>cartographer2_v1_20_r1</module>
-		<module>cartographer2_v1_20_r2</module>
-		<module>cartographer2_v1_20_r3</module>
-		<module>cartographer2_v1_20_r4</module>
-		<module>cartographer2_v1_21_r1</module>
-		<module>cartographer2_v1_21_r2</module>
-		<module>cartographer2_v1_21_r3</module>
-		<module>cartographer2_v1_21_r4</module>
-		<module>cartographer2</module>
-		<module>cartographer2_api</module>
-		<module>cartographer2_modulevanilla</module>
-		<module>cartographer2_moduleexperimental</module>
-		<module>cartographer2_moduleworldviewer</module>
-		<module>cartographer2_modulefactionsuuid</module>
-		<module>cartographer2_moduletowny</module>
-		<module>cartographer2_moduleresidence</module>
-		<module>cartographer2_moduleguilds</module>
-		<module>cartographer2_moduleworldguard_master</module>
-		<module>cartographer2_modulelands</module>
-		<module>cartographer2_modulegriefprevention</module>
+		<module>Cartographer2</module>
+		<module>Cartographer2_Main</module>
+		<module>Cartographer2_API</module>
+		<module>Modules/Cartographer2_ModuleVanilla</module>
+		<module>Modules/Cartographer2_ModuleExperimental</module>
+		<module>Modules/Cartographer2_ModuleWorldViewer</module>
+		<module>Modules/Cartographer2_ModuleFactionsUUID</module>
+		<module>Modules/Cartographer2_ModuleTowny</module>
+		<module>Modules/Cartographer2_ModuleResidence</module>
+		<module>Modules/Cartographer2_ModuleGuilds</module>
+		<module>Modules/Cartographer2_ModuleWorldGuard_Master</module>
+		<module>Modules/Cartographer2_ModuleLands</module>
+		<module>Modules/Cartographer2_ModuleGriefPrevention</module>
+		<module>NMS/Cartographer2_v1_8_R3</module>
+		<module>NMS/Cartographer2_v1_9_R1</module>
+		<module>NMS/Cartographer2_v1_9_R2</module>
+		<module>NMS/Cartographer2_v1_10_R1</module>
+		<module>NMS/Cartographer2_v1_11_R1</module>
+		<module>NMS/Cartographer2_v1_12_R1</module>
+		<module>NMS/Cartographer2_v1_13_R2</module>
+		<module>NMS/Cartographer2_v1_14_R1</module>
+		<module>NMS/Cartographer2_v1_15_R1</module>
+		<module>NMS/Cartographer2_v1_16_R1</module>
+		<module>NMS/Cartographer2_v1_16_R2</module>
+		<module>NMS/Cartographer2_v1_16_R3</module>
+		<module>NMS/Cartographer2_v1_17_R1</module>
+		<module>NMS/Cartographer2_v1_18_R1</module>
+		<module>NMS/Cartographer2_v1_18_R2</module>
+		<module>NMS/Cartographer2_v1_19_R1</module>
+		<module>NMS/Cartographer2_v1_19_R2</module>
+		<module>NMS/Cartographer2_v1_19_R3</module>
+		<module>NMS/Cartographer2_v1_20_R1</module>
+		<module>NMS/Cartographer2_v1_20_R2</module>
+		<module>NMS/Cartographer2_v1_20_R3</module>
+		<module>NMS/Cartographer2_v1_20_R4</module>
+		<module>NMS/Cartographer2_v1_21_R1</module>
+		<module>NMS/Cartographer2_v1_21_R2</module>
+		<module>NMS/Cartographer2_v1_21_R3</module>
+		<module>NMS/Cartographer2_v1_21_R4</module>
 	</modules>
 
 	<build>
@@ -72,7 +79,7 @@
 	<distributionManagement>
 		<repository>
 			<id>aaaaahhhhhhh</id>
-			<url>https://repo.aaaaahhhhhhh.com/releases</url>
+			<url>https://repo.aaaaahhhhhhh.com/releases/</url>
 		</repository>
 	</distributionManagement>
 </project>
